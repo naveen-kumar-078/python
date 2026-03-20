@@ -61,13 +61,22 @@
 
 
 
-x = "hi"
+# x = "hi"
 
 
-def mufunc():
-    global x
-    x = "fanstaic"
+# def mufunc():
+#     global x
+#     x = "fanstaic"
 
-mufunc()
+# mufunc()
 
-print("hello",x)
+# print("hello",x)
+
+
+
+
+x = 'awesome'
+def myfunc():
+  x = 'fantastic'
+  print("python",x)
+myfunc()
