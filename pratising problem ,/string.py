@@ -1,22 +1,23 @@
+# s1 = "python"
 
-# a = input()
+# print(s1[:-1])
+# print(s1[-1:])
 
-# print("uppercase",a.upper())
-# print("lowercase:",a.lower())
-# print("length",len(a))
+# s2 = "welcome"
+# print(s2[3:])
+
+
+# s3 = "python"
+# print(s3[::-1])
 
 
 
-# b = "python"
-# print(b[3:])
 
-s = "hello world"
-print(s[:5])
-c ="hello world"
-print(s[5:])
 
-revrse = "hello world"
-print(s[::-1])
+
+a = "python"
+print(a[-1:])
+
 
 
 

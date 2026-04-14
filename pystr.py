@@ -1,34 +1,36 @@
-print("It's alredy rainin")
-print('"this is the way"')
+a = " hello "
+print(a.strip())
+
+b = "taj mahal"
+print(b.replace("t","m"))
 
 
-a = """hello hi everyone this me the most  famous ruler pf this python"""
-b = a
-print(b)
+c=  "hello world"
+print(c.split("."))
+
+
+# pracising
+
+
+s2 = "Python is Fun"
+print(s2.upper())
+
+s4 = "GOOD MORNING"
+print(s4.lower())
+
+s1 = "  hello world  "
+print(s1.strip())
+
+s3 = "I love Java"
+print(s3.replace("Java","python"))
+
+s5 = "apple,banana,mango"
+
+print(s5.split(","))
 
 
 
 
-arr = "hello world"
-print(arr[1])
 
-
-
-
-for i in "bannana":
-    print(i)
-
-
-x  = "hello world"
-print(len(x))
-
-
-
-
-txt = "hello hi eryome execuse me "
-if "hello" in txt:
-    print("yes hello is there ")
-else:
-    print(" no it not there ")
-
-
+s2 = "Python is Fun"
+print(s2.replace("Fun", "happy"))
