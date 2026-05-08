@@ -9,7 +9,7 @@ const menuItems = [
     },
     {
         id: 2,
-        name: 'Cappuccino',
+        name: 'Cappqsq',
         description: 'Perfect balance of espresso, steamed milk, and foam',
         price: 4.50,
         category: 'coffee',

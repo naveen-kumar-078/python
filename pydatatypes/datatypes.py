@@ -25,14 +25,12 @@
 
 
 
-# x  = "appple ,banna , cherry"
-# y = tuple(x.split (" ,"))
-# print(y)
-
-
-l = "apple, orange,mango"
-x = list(l.split(","))
-print(x)
+# a = input()
+# b = tuple(a.split(","))
+# print(b)
+# l = "apple, orange,mango"
+# x = list(l.split(","))
+# print(x)
 
 
 
@@ -57,11 +55,11 @@ print(x)
 
 
 
-# ites1  = input().split()
-# item2 = input().split()
-# item3 = input().split()
+# ites1  = tuple(input().split())
+# item2 = tuple(input().split())
+# item3 = tuple(input().split())
 # total = ites1+item2+item3
-# print(type(total))
+# print(total)
 
 
 
@@ -107,6 +105,15 @@ print(x)
 
 
 
-user_input = input("enter your element")
-see = set(user_input.split(","))
-print(see)
+# user_input = input("enter your element")
+# see = tuple(user_input.split(","))
+# print(see)
+
+
+
+
+
+
+numebr = int(input())
+print(set(range(1,numebr+1)))
+
