@@ -19,10 +19,25 @@
 
 
 
-name = input("Enter name: ")
-age = input("Enter age: ")
-city = input("Enter city: ")
+# name = input("Enter name: ")
+# age = input("Enter age: ")
+# city = input("Enter city: ")
 
-data = {"name": name, "age": age, "city": city}
+# data = {"name": name, "age": age, "city": city}
 
-print(type(data))
+# print(type(data))
+
+
+
+
+
+
+
+
+name = tuple(input().split())
+age = input()
+
+s =tuple(map(int,age.split()))
+
+result = name+s
+print(result)
