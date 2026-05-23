@@ -34,10 +34,12 @@
 
 
 
-name = tuple(input().split())
-age = input()
+# name = tuple(input().split())
 
-s =tuple(map(int,age.split()))
 
-result = name+s
-print(result)
+# result = name+s
+# print(result)
+
+
+
+
