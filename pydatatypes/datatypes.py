@@ -77,8 +77,13 @@
 # print(type(full))
 
 
-# numeber = int(input())
-# print(list(range(1,numeber+1)))
+
+
+nk = input()
+kn = input()
+
+ans = set([nk,kn])
+print(ans)
 
 
 
@@ -113,7 +118,4 @@
 
 
 
-
-numebr = int(input())
-print(set(range(1,numebr+1)))
 
