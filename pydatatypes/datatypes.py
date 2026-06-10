@@ -79,11 +79,11 @@
 
 
 
-nk = input()
-kn = input()
+# nk = input()
+# kn = input()
 
-ans = set([nk,kn])
-print(ans)
+# ans = set([nk,kn])
+# print(ans)
 
 
 
@@ -119,3 +119,23 @@ print(ans)
 
 
 
+
+
+# name = int(input("enter your number"))
+# cl = int(input("roll no"))
+# n0 = [name, cl]
+# kk = (name, cl)
+# print(n0)
+# print(kk)
+
+
+
+
+
+
+fruits = input("enter your fruits : ")
+fruits2 = input("enter the fruots :  ")
+
+result = set([fruits,fruits2])
+
+print(result)
