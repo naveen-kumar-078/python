@@ -133,9 +133,24 @@
 
 
 
-fruits = input("enter your fruits : ")
-fruits2 = input("enter the fruots :  ")
+# fruits = input("enter your fruits : ")
+# fruits2 = input("enter the fruots :  ")
 
-result = set([fruits,fruits2])
+# result = tuple([fruits,fruits2])
 
-print(result)
+# print(result)
+
+
+
+
+
+
+
+# number  = tuple(map(int ,input("enter your number: ").split()))
+# print(number)
+
+
+
+num =  int(input("enter your number: "))
+a = list(range(1, num+1))
+print(a)

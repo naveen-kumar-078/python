@@ -42,4 +42,29 @@
 
 
 
+# a = list(input().split())
+# b = list(input().split())
+# c= list(input().split())
+# resut = a+b+c
 
+# print(resut)
+
+
+
+
+
+
+
+
+# fruits1 = set(input("enter your fruits: ").split())
+# fruits2 = set(input("enter two: ").split())
+# fruits3 = set(input("enter three: ").split())
+# a = fruits1|fruits2|fruits3
+# print(a)
+
+
+
+
+
+number = list(map(int, input("enter your numbers: ").split()))
+print(number)
