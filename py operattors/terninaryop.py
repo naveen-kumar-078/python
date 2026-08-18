@@ -1,20 +1,20 @@
-# a = int(input())
-# result = "even"if a%2==0 else "odd"
-# print(result)
+a = int(input())
+result = "even"if a%2==0 else "odd"
+print(result)
 
 
-# b = input("enter your number")
+b = input("enter your number")
 
-# re = "POSTIVIE" if a>0 else "negative"
-# print(re)
+re = "POSTIVIE" if a>0 else "negative"
+print(re)
 
 
-# a = int(input())
-# b = int(input())
-# c = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
 
-# result = a if a > b and a > c else  ( b  if b> a and b>c else c)
-# print(result) 
+result = a if a > b and a > c else  ( b  if b> a and b>c else c)
+print(result) 
 
 
 
