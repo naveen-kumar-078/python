@@ -20,7 +20,7 @@ print(thelist1)
 #If you insert more items than you replace
 
 num1 = [10,20,30,40,52]
-num1[1:2]=[75,85]
+num1[1:3]=[75,85]
 print(num1)
 
 
