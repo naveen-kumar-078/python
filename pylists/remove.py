@@ -1,38 +1,26 @@
-# to remove spcify item
+# to remove specified value
 
-thelist = ["apple","banna","orane"]
-thelist.remove("banna")
+thelist = ["apple","orange","bannana","pineapple"]
+thelist.remove("apple")
 print(thelist)
 
 
-# if there is an more item with the specified item alos it removes
-
-thelist = ["apple","banna","orane","banna"]
-thelist.remove("banna")
+# to remove specified using index
+thelist = ["apple","orange","bannana","pineapple"]
+thelist.pop(3)
 print(thelist)
 
 
+#del function as same as pop
 
-#using index valeus we can remove using pop
-
-thelist = ["apple","banna","orane"]
-thelist.pop(1)
+thelist = ["apple","orange","bannana","pineapple"]
+del thelist[2]
 print(thelist)
 
-# del functin also remove the specify utem
-thelist = ["apple","banna","orane"]
-del thelist
 
+#clear method is used to delete the content but the list still remains
 
-
-
-
-#clear list
-
-thelist = ["apple","banna","orane"]
+thelist = ["apple","orange","bannana","pineapple"]
 thelist.clear()
 print(thelist)
-
-
-
 
