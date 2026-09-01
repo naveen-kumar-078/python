@@ -14,9 +14,7 @@ print(thelist)
 #del function as same as pop
 
 thelist = ["apple","orange","bannana","pineapple"]
-del thelist[2]
-print(thelist)
-
+del thelist
 
 #clear method is used to delete the content but the list still remains
 
