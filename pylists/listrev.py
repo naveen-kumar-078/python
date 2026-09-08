@@ -1,7 +1,7 @@
 #accsesing list var
 var  =  ["apple","banna","mango"]
 print(f"accsing list: {var[0:2]}")
-
+#
 
 #change list 
 var  =  ["apple","banna","mango"]
@@ -42,3 +42,77 @@ print(nm)
 var  =  ["apple","banna","mango"]
 var.pop(2)
 print(var)
+
+
+
+
+
+
+#lists practise
+
+fruits = ["apple", "banana", "mango", "orange"]
+print(fruits[0])
+print(fruits[2])
+print(fruits[3])
+
+colors = ["red", "blue", "green", "yellow"]
+colors[1]="black"
+colors[-1]="white"
+print(colors)
+
+
+movies = ["Leo", "Jailer", "Vikram"]
+movies.append("master")
+print(movies)
+
+
+
+students = ["Arun", "Ravi", "Kumar"]
+students.insert(1,"Naveen")
+print(students)
+
+
+a = ["Python", "Java"]
+b = ["HTML", "CSS"]
+
+a.extend(b)
+print(a)
+
+
+animals = ["dog", "cat", "lion", "tiger"]
+animals.remove("lion")
+print(animals)
+
+
+
+numbers = [10, 20, 30, 40, 50]
+numbers.pop(3)
+print(numbers)
+
+
+
+
+num = [10, 20, 30, 40, 50]
+num[1]=25
+num.append(60)
+num.remove(40)
+num.insert(0,15)
+print(num)
+
+
+
+food = ["pizza", "burger", "pasta"]
+food.append("biriyani")
+food.insert(1,"dosa")
+food.remove("burger")
+print(food)
+
+
+
+
+laptop = ["Dell", "8GB RAM", "512GB SSD", "Windows"]
+laptop[1]="16GB RAM"
+laptop.append("i5 processor")
+laptop[3]="linux"
+
+print(laptop)
