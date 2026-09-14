@@ -24,3 +24,5 @@ print(len(mytuple))
 
 mytuple =()
 print(mytuple)
+
+
