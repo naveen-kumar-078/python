@@ -39,7 +39,7 @@ item3 = ("Headset", 1500, 1)
 
 cost1 = item1[1] * item1[2] 
 cost2= item2[1] * item2[2] 
-cost3 = item2[1] *item2[2] 
+cost3 = item3[1] *item3[2] 
 
 print("keyboard",cost1)
 print("mouse",cost2)
