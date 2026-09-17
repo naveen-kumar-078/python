@@ -58,3 +58,31 @@ y[2] = 5
 
 item1 = tuple(y)
 print("quantity updated",item1)
+
+
+
+
+print("---------------------------------------- next tuple practise")
+
+
+
+#Movie Information 🎬
+
+movie = ("Leo", "Action", 2023, 7.8)
+print("movie",movie[0])
+print("genre",movie[1])
+
+#Find an Item
+languages = ("Python", "Java", "C++", "JavaScript")
+print("Python" in languages)
+print("html" in languages)
+
+
+# Shopping Cart
+
+cart = ("Laptop", "Mouse", "Keyboard", "USB Cable")
+
+print("number of products.:",len(cart))
+print("whether Mouse exists.:","Mouse" in cart)
+print(cart.index("Keyboard"))
+print(cart.count("Mouse"))
