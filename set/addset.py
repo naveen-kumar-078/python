@@ -17,3 +17,26 @@ thisset = {"apple", "banana", "cherry"}
 mylist  = ["watermelon"]
 thisset.update(mylist)
 print(thisset)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thisset = {"apple", "banana", "cherry"}
+thisset.add("pp")
+print(thisset)
+
+
+thisset = {"apple", "banana", "cherry"}
+thelaa =  {"football", "ball", "kite"}
+thisset.update(thelaa)
+print(thisset)
