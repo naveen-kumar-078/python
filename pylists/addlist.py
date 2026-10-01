@@ -38,26 +38,7 @@ print(fruits)
 
 fruits = ["apple","orage","mago"]
 veg = ["carrot","beetroot","tomato"]
-fruits.
-class MODEL_NAMEUpdateView(UpdateView):
-    model = this.appd lqksmkndiq lknl
-
-    msk jj:
-    ::
-    for 
-    def __init__(self, *args, **kwargs):
-        super(ModuleNotFoundError, self).__init__(*args, **kwargs):
-        del :
-        if delattr:
-            assert:
-            function:
-        else:
-            for i in def get_(context):
-                request = context.get('request')
-                 = []
-                return     
-    template_name = "TEMPLATE_NAME"
-(veg)
+fruits.extend(veg)
 print(fruits)
 
 

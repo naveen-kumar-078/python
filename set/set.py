@@ -18,5 +18,3 @@ print(myset)
 myset = set(("apple","banna","fruit"))
 print(myset)
 
-my = float(input())
-print(my)

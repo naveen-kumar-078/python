@@ -13,5 +13,7 @@ print(thisset)
 
 #clear will empt the set
 thisset = {"apple", "banana", "cherry"}
-del thisset
-print(thisset)
+thisset.clear()
+
+
+
