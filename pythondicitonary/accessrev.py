@@ -69,3 +69,41 @@ print("---------------")
 x = thisdict.items()
 print(x)
 
+
+
+
+
+
+clas = {
+    "name":"arun",
+    "age":21,
+    "course":"mca"
+}
+
+
+print(clas["age"])
+
+
+mobile = {
+    "brand":"samsung",
+    "model":"s24",
+    "price":50000
+}
+
+mobile["price"]=60000
+
+print(mobile)
+
+
+
+
+
+clas = {
+    "name":"arun",
+    "age":21,
+
+}
+
+clas["course"]="mca"
+clas["college"] = "stc"
+print(clas)
