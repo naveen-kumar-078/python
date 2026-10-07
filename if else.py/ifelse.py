@@ -1,12 +1,12 @@
-# n  = int(input())
+n  = int(input())
 
-# if n%2==0 and n>0 or  n<0:
-#     print("even")
-#     print("positve")
+if n%2==0 and n>0 or  n<0:
+    print("even")
+    print("positve")
 
-# else:
-#     print("neagtive")
-#     print("odd")
+else:
+    print("neagtive")
+    print("odd")
 
 
 
