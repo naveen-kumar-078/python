@@ -23,3 +23,34 @@ if username == "admin":
 else:
     print("Invalid username")
     
+    
+    if password!="python123":
+        print("password eror")
+
+
+
+#bank
+
+balance = 5000
+correctpin = 1234
+
+pin = int(input("enter your pin here :"))
+
+if pin == correctpin:
+    amount = int(input("enter your withdrwal amount here "))
+
+
+    if amount > 0:
+        if amount<= balance:
+            balance = balance-amount
+            print("withdrwal amount",amount)
+            print("remaining balance",balance)
+        else:
+            print("insufficent balance")
+    else:
+        print("insufficient amount")
+
+else:
+    print("incorrect pin")
+    
+    
