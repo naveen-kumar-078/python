@@ -1,45 +1,45 @@
-# num = int(input("enter your number here: "))
+num = int(input("enter your number here: "))
 
-# if num >0:
-#     print("postive")
-# elif num < 0 :
-#     print("negative")
-# else:
-#     print("zero")
+if num >0:
+    print("postive")
+elif num < 0 :
+    print("negative")
+else:
+    print("zero")
 
 
 
-# #scolraship ok
+#scolraship ok#
 
-# mark = int(input("enter your mark here :  "))
-# attendence  = int(input("enter your attendece: "))
+mark = int(input("enter your mark here :  "))
+attendence  = int(input("enter your attendece: "))
 
-# if mark > 85:
-#     if attendence > 90:
-#         print("scolarship approved")
-#     else:
-#         print("no scholarship appproved") 
-# else:
-#     print("failed")
+if mark > 85:
+    if attendence > 90:
+        print("scolarship approved")
+    else:
+        print("no scholarship appproved") 
+else:
+    print("failed")
 
 
 
 #login system
 
 
-# login = input("Enter your username: ")
-# pAss = input("Enter your password: ")
+login = input("Enter your username: ")
+pAss = input("Enter your password: ")
 
-# if login == "username":
-#     if pAss == "python123":
-#         print("login successfull")
-#     else:
-#         print("invalid password")
-# else:
-#     print("invalid username")
+if login == "username":
+    if pAss == "python123":
+        print("login successfull")
+    else:
+        print("invalid password")
+else:
+    print("invalid username")
 
-#     if pAss !="python123":
-#         print("invalid password")
+    if pAss !="python123":
+        print("invalid password")
 
 
 
