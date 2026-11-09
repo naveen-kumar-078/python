@@ -116,3 +116,17 @@ laptop.append("i5 processor")
 laptop[3]="linux"
 
 print(laptop)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PY  LIST REVISION
