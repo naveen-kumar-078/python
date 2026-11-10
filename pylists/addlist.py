@@ -65,5 +65,11 @@ print(more_meats)
 
 
 
+  
+cars = ["BMW", "Audi", "Benz"]
+cars.append("toyota")
+print( cars)
+cars[1] = "toyota"
+print(cars)
 
 

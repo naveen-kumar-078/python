@@ -52,3 +52,33 @@ number[3]=200
 print(number)
 number [1:3] = [300,400]
 print(number)
+
+
+
+
+
+
+#lists practise test
+
+students = ["Arun", "Ravi", "Kumar", "Vijay"]
+print(students[1])
+print(students[-1])
+print(students[1:4])
+print("----------------------------------")
+
+
+
+
+marks = [45, 60, 70, 80, 90]
+marks[1] = 65
+marks[4]  = 100
+print(marks)
+
+
+
+languages = ["Python", "Java", "C++"]
+languages.append("javascript")
+languages.insert(1,"HTML")
+languages.append("css")
+languages.append("sql")
+print(languages)
