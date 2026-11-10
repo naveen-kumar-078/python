@@ -38,3 +38,17 @@ if 60  in numbers:
 fruits = ["Apple", "Banana", "Orange"]
 fruits[2]  = "grapes"
 print(fruits)
+
+fruits = ["Apple", "Banana", "Orange"]
+
+fruits[1:2] = ["mango","grapes"]
+print(fruits)
+
+
+#practise 
+number = [10,20,30,40,50]
+number[1]=100
+number[3]=200
+print(number)
+number [1:3] = [300,400]
+print(number)
